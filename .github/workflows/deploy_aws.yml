@@ -25,3 +25,4 @@ jobs:
           existing_bucket_name: elasticbeanstalk-us-east-1-141319508951
           region: us-east-1
           deployment_package: deploy.zip
+          use_existing_version_if_available: true

@@ -33,7 +33,7 @@ function App() {
     if (!value) {
       setPasswordError("Password is required");
     } else if (value.length < 8) {
-      setPasswordError("Password must be at least 8 characters long");
+      setPasswordError("Password must be at least 6 characters long");
     } else {
       setPasswordError("");
     }
